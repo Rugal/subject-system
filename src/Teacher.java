@@ -10,28 +10,3 @@ import java.util.ArrayList;
  *
  * @author sally
  */
-public class Teacher extends Person {
-
-  
-  
-  private ArrayList<Course> CourseList;
-  
-
-  public Teacher(int number, String username, String password) {
-    super(number, username, password);
-    this.CourseList = new ArrayList<Course>();
-  }
-
-
-
-  public boolean addCourse(Course course) {
-    if (course == null || CourseList.contains(course)) {
-      return false;
-    }
-    CourseList.add(course);
-    return true;
-  }
-
-  
-
-}

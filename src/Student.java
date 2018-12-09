@@ -10,8 +10,8 @@
  */
  public  class Student extends Person{
   
-  public Student(int number, String username, String password) {
-    super(number, username, password);
+  public Student(int number, String type, String username, String password) {
+    super(number, type,username, password);
   }
 
   
