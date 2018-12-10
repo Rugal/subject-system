@@ -1,3 +1,8 @@
+package model;
+
+
+import model.Person;
+
 /*
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
@@ -8,14 +13,11 @@
  *
  * @author sally
  */
-public class Admin {
-   private int id;
-   private String name;
-   
-   public Admin(int id, String name){
-        this.id = id;
-        this.name = name;
-    }
+ public  class Student extends Person{
   
+  public Student(int number, String type, String username, String password) {
+    super(number, type,username, password);
+  }
+
   
 }

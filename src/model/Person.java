@@ -1,3 +1,5 @@
+package model;
+
 
 /**
  *
@@ -16,7 +18,6 @@ public class Person {
     this.type = type;
     this.username = username;
     this.password = password;
-
   }
 
   public String getUsername() {
@@ -31,8 +32,6 @@ public class Person {
     return password;
   }
   
-
-
   public void setPassword(String password) {
     this.password = password;
   }
@@ -40,7 +39,6 @@ public class Person {
  public String getType() {
     return type;
   }
- 
  
  public void setType(String type) {
     this.type = type;
@@ -53,7 +51,4 @@ public class Person {
   public void setNumber(int number) {
     this.number = number;
   }
-  
-
-
 }
