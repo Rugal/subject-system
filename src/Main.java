@@ -1,11 +1,13 @@
 
 import model.Person;
+import model.WritingToFiles;
+
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Scanner;
-import model.WritingToFiles;
+
 import view.AdminScreen;
 import view.BaseScreen;
 import view.StudentScreen;
